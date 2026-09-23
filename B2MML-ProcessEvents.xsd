@@ -248,7 +248,7 @@
       <xsd:element name="ChangedPhysicalAssetClassRecord" minOccurs="0" maxOccurs="unbounded">
         <xsd:complexType>
           <xsd:sequence>
-            <xsd:element name="PhysicalClassAsset" type="PhysicalAssetClassType" />
+            <xsd:element name="PhysicalAssetClass" type="PhysicalAssetClassType" />
           </xsd:sequence>
           <xsd:attribute name="recordTimestamp" type="xsd:dateTime" />
           <xsd:attribute name="effectiveTimestamp" type="xsd:dateTime" />
@@ -1137,7 +1137,7 @@
       <xsd:element name="ChangedPhysicalAssetClassRecord" minOccurs="0" maxOccurs="unbounded">
         <xsd:complexType>
           <xsd:sequence>
-            <xsd:element name="PhysicalClassAsset" type="PhysicalAssetClassType" />
+            <xsd:element name="PhysicalAssetClass" type="PhysicalAssetClassType" />
           </xsd:sequence>
           <xsd:attribute name="recordTimestamp" type="xsd:dateTime" />
           <xsd:attribute name="effectiveTimestamp" type="xsd:dateTime" />
